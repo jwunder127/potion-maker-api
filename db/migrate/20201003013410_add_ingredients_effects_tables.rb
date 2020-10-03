@@ -16,5 +16,15 @@ class AddIngredientsEffectsTables < ActiveRecord::Migration[6.0]
       t.boolean :is_poison
       t.integer :type
     end
+
+    create_join_table :effects, :ingredients do |t|
+      t.index [:effect_id, :ingredient_id], :unique => true
+    end
+    create_join_table :effects, :potions do |t|
+      t.index [:effect_id, :potion_id], :unique => true
+    end
+    create_join_table :ingredients, :potions do |t|
+      t.index [:ingredient_id, :potion_id], :unique => true
+    end
   end
 end

@@ -1,5 +1,5 @@
 class Potion < ApplicationRecord
-  has_many :ingredients
-  has_many :effects, :through => :ingredients
+  has_and_belongs_to_many :ingredients
+  has_and_belongs_to_many :effects
   enum type: [:poison, :potion]
 end

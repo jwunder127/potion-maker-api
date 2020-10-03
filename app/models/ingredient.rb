@@ -1,3 +1,3 @@
 class Ingredient < ApplicationRecord
-  has_many :effects
+  has_and_belongs_to_many :effects
 end

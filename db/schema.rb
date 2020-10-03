@@ -16,10 +16,28 @@ ActiveRecord::Schema.define(version: 2020_10_03_013410) do
     t.string "name"
   end
 
+  create_table "effects_ingredients", id: false, force: :cascade do |t|
+    t.integer "effect_id", null: false
+    t.integer "ingredient_id", null: false
+    t.index ["effect_id", "ingredient_id"], name: "index_effects_ingredients_on_effect_id_and_ingredient_id", unique: true
+  end
+
+  create_table "effects_potions", id: false, force: :cascade do |t|
+    t.integer "effect_id", null: false
+    t.integer "potion_id", null: false
+    t.index ["effect_id", "potion_id"], name: "index_effects_potions_on_effect_id_and_potion_id", unique: true
+  end
+
   create_table "ingredients", force: :cascade do |t|
     t.string "name"
     t.integer "value"
     t.string "image_url"
+  end
+
+  create_table "ingredients_potions", id: false, force: :cascade do |t|
+    t.integer "ingredient_id", null: false
+    t.integer "potion_id", null: false
+    t.index ["ingredient_id", "potion_id"], name: "index_ingredients_potions_on_ingredient_id_and_potion_id", unique: true
   end
 
   create_table "potions", force: :cascade do |t|
