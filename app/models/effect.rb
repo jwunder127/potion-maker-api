@@ -1,0 +1,3 @@
+class Effect < ApplicationRecord
+
+end
