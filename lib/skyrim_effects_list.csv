@@ -1,0 +1,57 @@
+name,internal_id,description,base_cost,base_magnitude,base_duration,value,is_poison
+Cure Disease,000AE722,Cures all diseases.,0.5,5,0,21,FALSE
+Cure Poison,00109ADD,Stops poison's continuing effects.,0.2,2,0,3,FALSE
+Damage Health,0003EB42,Causes <mag> points of poison damage.,3,2,1,3,TRUE
+Damage Magicka,0003A2B6,Drains the target's Magicka by <mag> points.,2.2,3,0,52,TRUE
+Damage Magicka Regen,00073F2B,Decrease the target's Magicka regeneration by <mag>% for <dur> seconds.,0.5,100,5,265,TRUE
+Damage Stamina,0003A2C6,Drain the target's Stamina by <mag> points.,1.8,3,0,43,TRUE
+Damage Stamina Regen,00073F2C,Decrease the target's Stamina regeneration by <mag>% for <dur> seconds.,0.3,100,5,159,TRUE
+Fear,00073F20,Creatures and people up to level <mag> flee from combat for <dur> seconds.,5,1,30,120,TRUE
+Fortify Alteration,0003EB24,Alteration spells last <mag>% longer for <dur> seconds.,0.2,4,60,47,FALSE
+Fortify Barter,0003EB23,You haggle for <mag>% better prices for <dur> seconds.,2,1,30,48,FALSE
+Fortify Block,0003EB1C,Blocking absorbs <mag>% more damage for <dur> seconds.,0.5,4,60,118,FALSE
+Fortify Carry Weight,0003EB01,Carrying capacity increases by <mag> for <dur> seconds.,0.15,4,300,208,FALSE
+Fortify Conjuration,0003EB25,Conjurations spells last <mag>% longer for <dur> seconds.,0.25,5,60,75,FALSE
+Fortify Destruction,0003EB26,Destruction spells are <mag>% stronger for <dur> seconds.,0.5,5,60,151,FALSE
+Fortify Enchanting,0003EB29,"For <dur> seconds, items are enchanted <mag>% stronger.",0.6,1,30,14,FALSE
+Fortify Health,0003EAF3,Health is increased by <mag> points for <dur> seconds.,0.35,4,60,82,FALSE
+Fortify Heavy Armor,0003EB1E,Increase Heavy Armor skill by <mag> points for <dur> seconds.,0.5,2,60,55,FALSE
+Fortify Illusion,0003EB27,Illusion spells are <mag>% stronger for <dur> seconds.,0.4,4,60,94,FALSE
+Fortify Light Armor,0003EB1F,Increases Light Armor skill by <mag> points for <dur> seconds.,0.5,2,60,55,FALSE
+Fortify Lockpicking,0003EB21,Lockpicking is <mag>% easier for <dur> seconds.,0.5,2,30,25,FALSE
+Fortify Magicka,0003EAF8,Magicka is increased by <mag> points for <dur> seconds.,0.3,4,60,71,FALSE
+Fortify Marksman,0003EB1B,Bows do <mag>% more damage for <dur> seconds.,0.5,4,60,118,FALSE
+Fortify One-handed,0003EB19,One-handed weapons do <mag>% more damage for <dur> seconds.,0.5,4,60,118,FALSE
+Fortify Pickpocket,0003EB20,Pickpocketing is <mag>% easier for <dur> seconds.,0.5,4,60,118,FALSE
+Fortify Restoration,0003EB28,Restoration spells are <mag>% stronger for <dur> seconds.,0.5,4,60,118,FALSE
+Fortify Smithing,0003EB1D,"For <dur> seconds, weapon and armor improving is <mag>% better.",0.75,4,30,82,FALSE
+Fortify Sneak,0003EB22,You are <mag>% harder to detect for <dur> seconds.,0.5,4,60,118,FALSE
+Fortify Stamina,0003EAF9,Stamina is increased by <mag> points for <dur> seconds.,0.3,4,60,71,FALSE
+Fortify Two-handed,0003EB1A,Two-handed weapons do <mag>% more damage for <dur> seconds.,0.5,4,60,118,FALSE
+Frenzy,00073F29,Creatures and people up to level <mag> will attack anything nearby for <dur> seconds.,15,1,10,107,TRUE
+Invisibility,0003EB3D,Invisibility for <dur> seconds.,100,0,4,261,FALSE
+Lingering Damage Health,0010AA4A,Causes <mag> points of poison damage for <dur> seconds.,12,1,10,86,TRUE
+Lingering Damage Magicka,0010DE5F,Drains the target's Magicka by <mag> points per second for <dur> seconds.,10,1,10,71,TRUE
+Lingering Damage Stamina,0010DE5E,Drain the target's Stamina by <mag> points per second for <dur> seconds.,1.8,1,10,12,TRUE
+Paralysis,00073F30,Target is paralyzed for <dur> seconds.,500,0,1,285,TRUE
+Ravage Health,00073F26,Causes <mag> points of concentrated poison damage.,0.4,2,10,6,TRUE
+Ravage Magicka,00073F27,Concentrated poison damages maximum magicka by <mag> points.,1,2,10,15,TRUE
+Ravage Stamina,00073F23,Concentrated poison damages maximum stamina by <mag> points.,1.6,2,10,24,TRUE
+Regenerate Health,0003EB06,Health regenerates <mag>% faster for <dur> seconds.,0.1,5,300,177,FALSE
+Regenerate Magicka,0003EB07,Magicka regenerates <mag>% faster for <dur> seconds.,0.1,5,300,177,FALSE
+Regenerate Stamina,0003EB08,Stamina regenerates <mag>% faster for <dur> seconds.,0.1,5,300,177,FALSE
+Resist Fire,0003EAEA,Resist <mag>% of fire damage for <dur> seconds.,0.5,3,60,86,FALSE
+Resist Frost,0003EAEB,Resist <mag>% of frost damage for <dur> seconds.,0.5,3,60,86,FALSE
+Resist Magic,00039E51,Resist <mag>% of magic for <dur> seconds.,1,1,60,51,FALSE
+Resist Poison,00090041,Resist <mag>% of poison for <dur> seconds.,0.5,4,60,118,FALSE
+Resist Shock,0003EAEC,Resist <mag>% of shock damage for <dur> seconds.,0.5,3,60,86,FALSE
+Restore Health,0003EB15,Restore <mag> points of Health.,0.5,5,0,21,FALSE
+Restore Magicka,0003EB17,Restore <mag> points of Magicka.,0.6,5,0,25,FALSE
+Restore Stamina,0003EB16,Restore <mag> Stamina.,0.6,5,0,25,FALSE
+Slow,00073F25,Target moves at 50% speed for <dur> seconds.,1,50,5,247,TRUE
+Waterbreathing,0003AC2D,Can breathe underwater for <dur> seconds.,30,0,5,100,FALSE
+Weakness to Fire,00073F2D,Target is <mag>% weaker to fire damage for <dur> seconds.,0.6,3,30,48,TRUE
+Weakness to Frost,00073F2E,Target is <mag>% weaker to frost damage for <dur> seconds.,0.5,3,30,40,TRUE
+Weakness to Magic,00073F51,Target is <mag>% weaker to magic for <dur> seconds.,1,2,30,51,TRUE
+Weakness to Poison,00090042,Target is <mag>% weaker to poison for <dur> seconds.,1,2,30,51,TRUE
+Weakness to Shock,00073F2F,Target is <mag>% weaker to shock damage for <dur> seconds.,0.7,3,30,56,TRUE

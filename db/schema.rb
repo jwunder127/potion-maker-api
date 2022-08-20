@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_03_013410) do
+ActiveRecord::Schema.define(version: 2022_08_20_192038) do
 
   create_table "effects", force: :cascade do |t|
     t.string "name"
+    t.integer "base_integer"
+    t.string "internal_id"
+    t.string "description"
+    t.float "base_cost"
+    t.integer "base_magnitude"
+    t.integer "base_duration"
+    t.integer "value"
+    t.boolean "is_poison"
   end
 
   create_table "effects_ingredients", id: false, force: :cascade do |t|
@@ -32,6 +40,8 @@ ActiveRecord::Schema.define(version: 2020_10_03_013410) do
     t.string "name"
     t.integer "value"
     t.string "image_url"
+    t.string "expansion_pack"
+    t.float "weight"
   end
 
   create_table "ingredients_potions", id: false, force: :cascade do |t|

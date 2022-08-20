@@ -4,6 +4,8 @@ class AddIngredientsEffectsTables < ActiveRecord::Migration[6.0]
       t.string :name
       t.integer :value
       t.string :image_url
+      t.string :expansion_pack
+
     end
 
     create_table :effects do |t|
